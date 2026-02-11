@@ -15,7 +15,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  script: uv pip install --python ${{ PYTHON }} . -vv --no-deps --no-build-isolation
   python:
     entry_points:
       - docify = docify:main
@@ -23,8 +23,8 @@ build:
 requirements:
   host:
     - python ${{ python_min }}.*
-    - pdm-backend
-    - pip
+    - hatchling
+    - uv
   run:
     - python >=${{ python_min }}
     - libcst >=1.1.0
