@@ -47,7 +47,7 @@ about:
   summary: A script to add docstrings to Python type stubs using reflection
   license: MIT
   license_file: LICENSE
-  homepage: https://github.com/AThePeanut4/docify
+  homepage: https://github.com/atoerien/docify
 
 extra:
   recipe-maintainers:
