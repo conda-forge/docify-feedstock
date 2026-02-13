@@ -3,7 +3,7 @@ About docify-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/docify-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/AThePeanut4/docify
+Home: https://github.com/atoerien/docify
 
 Package license: MIT
 

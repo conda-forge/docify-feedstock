@@ -13,7 +13,7 @@ source:
   sha256: ed565259a3b20cd754438405b7830e12579f2223bb3c3f13c8e9318c258bc0a8
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: uv pip install --python ${{ PYTHON }} . -vv --no-deps --no-build-isolation
   python:
@@ -47,7 +47,7 @@ about:
   summary: A script to add docstrings to Python type stubs using reflection
   license: MIT
   license_file: LICENSE
-  homepage: https://github.com/AThePeanut4/docify
+  homepage: https://github.com/atoerien/docify
 
 extra:
   recipe-maintainers:
