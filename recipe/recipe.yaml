@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: docify
-  version: "1.2.0"
+  version: "1.2.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/docify-${{ version }}.tar.gz
-  sha256: 63eba160b367e7bbf941183c8474d708bcde33cfbb7c3161ce7b532361a98175
+  sha256: ed565259a3b20cd754438405b7830e12579f2223bb3c3f13c8e9318c258bc0a8
 
 build:
   number: 0
